@@ -1,6 +1,6 @@
 module github.com/bdswiss/ssm-env
 
-go 1.22
+go 1.27.2
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.18.15

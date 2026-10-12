@@ -30,6 +30,12 @@ ssm-env -p /staging/myapp web
 
 ## Building
 
+Go is pinned via [mise](https://mise.jdx.dev) (`mise.toml`); keep it in sync with the `go` line in `go.mod`.
+
+```sh
+mise install
+```
+
 ```sh
 go build ./cmd/ssm-env 
 ```
